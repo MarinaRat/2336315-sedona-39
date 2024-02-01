@@ -2,7 +2,7 @@
 
 * Студент: [Марина Раткевич](https://up.htmlacademy.ru/htmlcss/39/user/2336315).
 * Наставник: [Дина Шарипова](https://htmlacademy.ru/profile/id1418957)
-
+* Сайт:[Мой проект Седона](https://marinarat.github.io/2336315-sedona-39/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
