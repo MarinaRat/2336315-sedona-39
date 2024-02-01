@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Марина Раткевич](https://up.htmlacademy.ru/htmlcss/39/user/2336315).
-* Наставник: [Дина Шарипова](https://htmlacademy.ru/profile/id1418957).
+* Наставник: [Дина Шарипова](https://htmlacademy.ru/profile/id1418957)
 
 ---
 
