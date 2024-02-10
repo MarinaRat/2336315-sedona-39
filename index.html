@@ -41,7 +41,7 @@
             </a>
           </li>
           <li class="navigation-user-item">
-            <a class="navigation-button" href="#">
+            <a class="navigation-button button" href="#">
               Хочу сюда!
             </a>
           </li>
@@ -59,7 +59,7 @@
         </div>
       </div>
       <section class="advantages">
-        <ol class="advantages-list">
+        <ul class="advantages-list">
           <li class="advantages-item">
             <h3 class="advantages-title">Настоящий городок</h3>
             <p class="advantages-description">
@@ -90,7 +90,7 @@
               Да, по нему можно пройти! Если вы осмелитесь, разумеется
             </p>
           </li>
-        </ol>
+        </ul>
         <div class="advantages-additional">    <!--advantages-additional - доп. преимущества-->
           <h2 class="advantages-additional-title-main">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
           <p class="advantages-additional-description-main">Опытный персонал и качественное обслуживание!</p>
@@ -111,11 +111,57 @@
         </div>
       </section>
       <section class="search-hotel"> <!--поиск гостиницы-->
-
+        <h2 class="search-hotel-title">Заинтересовались?</h2>
+        <p class="search-hotel-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <a class="search-hotel-link button" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
+      </section>
+      <section class="subscribe"> <!--Подписаться-->
+        <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
+        <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <div class="form-container">
+          <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
+            <label class="visually-hidden" for="subscribe-email">Email</label>
+            <input
+              class="field"
+              placeholder="Ваш e-mail"
+              type="email" name="subscribe-email"
+              id="subscribe-email"
+              required
+            >
+          </form>
+          <button class="button subscribe-button blue-button" type="submit">Подписаться</button>
+        </div>
       </section>
     </main>
-    <footer>
-
+    <footer class="footer">
+      <section class="footer-social">
+        <h3 class="visually-hidden">Социальные сети</h3>
+        <ul class="footer-social-list">
+          <li class="footer-social-item">
+            <a class="footer-social-button vk" href="https://vk.com/htmlacademy">
+              <span class="visually-hidden">ВКонтакте</span>
+          </li>
+          <li class="footer-social-item">
+            <a class="footer-social-button telegram" href="https://t.me/htmlacademy">
+              <span class="visually-hidden">Телеграм</span>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="footer-social-button youtube" href="https://www.youtube.com/user/htmlacademyru">
+              <span class="visually-hidden">Ютуб</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <div class="footer-phone">
+        <span class="visually-hidden">Контактный номер телефона</span>
+        <a class="phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+      </div>
+      <div class="footer-copyright">
+        <a class="footer-copyright-link" href="https://htmlacademy.ru/">
+          <span class="visually-hidden">Ссылка на сайт разработчика</span>
+        </a>
+      </div>
     </footer>
   </body>
   </html>
